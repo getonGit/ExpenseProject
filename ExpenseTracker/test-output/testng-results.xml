@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58794" started-at="2019-05-26T21:43:11Z" finished-at="2019-05-26T21:44:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58794" started-at="2019-05-26T21:43:11Z" finished-at="2019-05-26T21:44:09Z">
+      <class name="testExpense.BaseExpenseTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="initialization" is-config="true" duration-ms="143" started-at="2019-05-26T23:43:11Z" finished-at="2019-05-26T23:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="invokeBrowser" is-config="true" duration-ms="9687" started-at="2019-05-26T23:43:11Z" finished-at="2019-05-26T23:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="addAUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addAUser" duration-ms="1692" started-at="2019-05-26T23:43:20Z" data-provider="RegUserNow" finished-at="2019-05-26T23:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[friend]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[friend]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAUser -->
+        <test-method status="PASS" signature="addMyCategoryTypes(java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyCategoryTypes" duration-ms="2269" started-at="2019-05-26T23:43:22Z" data-provider="InputCategory" finished-at="2019-05-26T23:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yoga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyCategoryTypes -->
+        <test-method status="PASS" signature="addMyCategoryTypes(java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyCategoryTypes" duration-ms="1426" started-at="2019-05-26T23:43:24Z" data-provider="InputCategory" finished-at="2019-05-26T23:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyCategoryTypes -->
+        <test-method status="PASS" signature="addMyCategoryTypes(java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyCategoryTypes" duration-ms="2505" started-at="2019-05-26T23:43:26Z" data-provider="InputCategory" finished-at="2019-05-26T23:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[music]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyCategoryTypes -->
+        <test-method status="PASS" signature="addMyCategoryTypes(java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyCategoryTypes" duration-ms="5844" started-at="2019-05-26T23:43:28Z" data-provider="InputCategory" finished-at="2019-05-26T23:43:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyCategoryTypes -->
+        <test-method status="PASS" signature="addMyCategoryTypes(java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyCategoryTypes" duration-ms="3365" started-at="2019-05-26T23:43:34Z" data-provider="InputCategory" finished-at="2019-05-26T23:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shopping]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyCategoryTypes -->
+        <test-method status="PASS" signature="addMyExpenses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyExpenses" duration-ms="24713" started-at="2019-05-26T23:43:38Z" data-provider="InputExpense" finished-at="2019-05-26T23:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[books]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yoga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyExpenses -->
+        <test-method status="PASS" signature="addMyExpenses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyExpenses" duration-ms="1310" started-at="2019-05-26T23:44:02Z" data-provider="InputExpense" finished-at="2019-05-26T23:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5th element]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyExpenses -->
+        <test-method status="PASS" signature="addMyExpenses(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="addMyExpenses" duration-ms="1471" started-at="2019-05-26T23:44:04Z" data-provider="InputExpense" finished-at="2019-05-26T23:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shopping]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5th element]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMyExpenses -->
+        <test-method status="PASS" signature="deleteMyCategory()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="deleteMyCategory" duration-ms="3457" started-at="2019-05-26T23:44:05Z" finished-at="2019-05-26T23:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMyCategory -->
+        <test-method status="PASS" signature="deleteMyExpense()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="deleteMyExpense" duration-ms="832" started-at="2019-05-26T23:44:08Z" finished-at="2019-05-26T23:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMyExpense -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="closeBrowser" is-config="true" duration-ms="161" started-at="2019-05-26T23:44:09Z" finished-at="2019-05-26T23:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testExpense.BaseExpenseTest@5c7fa833]" name="cleanup" is-config="true" duration-ms="293" started-at="2019-05-26T23:44:09Z" finished-at="2019-05-26T23:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testExpense.BaseExpenseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
